@@ -1,0 +1,11 @@
+/* @import 'bootstrap/scss/bootstrap.scss'; */
+
+
+html {
+	font-family: system-ui, serif;
+	color-scheme: light dark;
+}
+
+:root::view-transition{
+  animation-duration: 2000;
+}

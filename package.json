@@ -1,0 +1,33 @@
+{
+  "name": "@gracile/template--minimal-server-express",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "gracile-dev",
+    "build": "gracile build",
+    "check": "tsc",
+    "preview": "node -C preview --env-file=.env --watch dist/server/server.js",
+    "start": "node dist/server/server.js",
+    "start:prod": "NODE_ENV=production node --run start"
+  },
+  "dependencies": {
+    "@gracile/gracile": "^0.1.1",
+    "bootstrap": "^5.3.3",
+    "express": "4.19.2",
+    "lit": "^3.1.4",
+    "micromorph": "^0.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.11",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "postcss-lit": "^1.1.1",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "serve": "^14.2.3",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.4.5"
+  }
+}

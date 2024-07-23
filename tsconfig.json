@@ -1,0 +1,5 @@
+{
+  "extends": "@gracile/gracile/tsconfigs/strictest",
+
+  "include": ["gracile.config.ts", "src", "ambient"]
+}

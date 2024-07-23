@@ -1,0 +1,10 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:host {
+	display: flex;
+	flex-direction: column;
+
+	background-color: rgb(67, 63, 63);
+}
