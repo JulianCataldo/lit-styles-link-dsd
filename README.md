@@ -1,5 +1,9 @@
 # CSS loading comparison
 
+The dist is already there, you can just do `pnpm serve dist/client -p 3030` after install.
+
+---
+
 ```sh
 pnpm i
 pnpm dev
@@ -79,6 +83,6 @@ Webkit
 </table>
 
 > [!CAUTION]
-> TAKE IT WITH A GRAIN OF SALTS. IT'S NOT SCIENTIFIC.  
+> TAKE IT WITH A GRAIN OF SALT. IT'S NOT SCIENTIFIC.  
 > Various, difficult-to-control factors are interfering.  
 > E.g. streaming versus static seems to affect parsing order (need confirmation).
