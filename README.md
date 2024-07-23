@@ -39,3 +39,46 @@ Firefox
 Webkit
 
 [webkit.webm](https://github.com/user-attachments/assets/16b2ec9b-ee0a-4861-bc70-a3f4cb232d6b)
+
+---
+
+## Summary
+
+<table>
+<tr>
+<td></td>
+<td>WebKit</td>
+<td>Chromium</td>
+<td>Firefox</td>
+</tr>
+<tr>
+<td>Style / S+C - With cache</td>
+<td>✅</td>
+<td>✅ / ⏱️</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Link / S+C - No cache</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Adopted / C - No cache</td>
+<td>⏱️</td>
+<td>⏱️</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Link / C - With cache</td>
+<td>⏱️</td>
+<td>⏱️</td>
+<td>✅</td>
+</tr>
+
+</table>
+
+> [!CAUTION]
+> TAKE IT WITH A GRAIN OF SALTS. IT'S NOT SCIENTIFIC.  
+> Various, difficult-to-control factors are interfering.  
+> E.g. streaming versus static seems to affect parsing order (need confirmation).
