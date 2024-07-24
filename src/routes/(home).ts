@@ -22,6 +22,15 @@ export default defineRoute({
 	template: (/* context */) => html`
 		<article>
 			<fieldset class="card p-4">
+				Head Link / Light DOM
+
+				<button class="btn btn-primary">Omega</button>
+				<em class="display-4">nothing</em>
+
+				Theta
+			</fieldset>
+
+			<fieldset class="card p-4">
 				Style / Server + Client
 				<e-style-server-client .animal=${'none'}></e-style-server-client>
 			</fieldset>
